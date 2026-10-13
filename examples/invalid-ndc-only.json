@@ -1,0 +1,22 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "syn-ndc-only",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/sid/ndc",
+        "code": "00093-7214-01"
+      }
+    ]
+  },
+  "subject": {
+    "reference": "Patient/syn-patient-001"
+  }
+}

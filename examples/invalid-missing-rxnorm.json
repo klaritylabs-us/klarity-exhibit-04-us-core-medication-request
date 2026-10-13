@@ -1,0 +1,17 @@
+{
+  "resourceType": "MedicationRequest",
+  "id": "syn-text-only-med",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"
+    ]
+  },
+  "status": "active",
+  "intent": "order",
+  "medicationCodeableConcept": {
+    "text": "Metformin 500mg"
+  },
+  "subject": {
+    "reference": "Patient/syn-patient-001"
+  }
+}
